@@ -1,0 +1,92 @@
+
+body{
+background-color:mistyrose;
+font-family: Courier New;
+margin-left:5px;
+margin-right: 5px;
+}
+.header{
+ Background-color:cyan;
+ padding: 5px;
+ color:black;
+ height: 175px;
+ width: 75%;
+} 
+.footer{
+Background-color:cyan;
+padding: 5px;
+color:black;
+height: 175px;
+width: 75%; 
+text-align: right;
+}
+li{
+ display: inline-block;
+ margin:5px;
+ height: 22px;
+ width:20%;
+ padding:12px;
+ text-align: center;
+ color:black;
+ background-color:yellowgreen ;
+ border-style: none;
+ border-collapse: collapse;
+}
+li:hover{
+ background-color:greenyellow;
+ border-style:none;
+}
+ul a{
+ color:white;
+ text-decoration: none;
+}
+table{
+    display: inline-block;
+    padding:100px;
+    border:none;
+    background-color:lavender;
+    width:50%;
+}
+th, td{
+    height:50%px;
+    width:50%;
+    Background-color:rgb(155, 196, 155);
+    text-align: center;
+    color:green;
+}
+input[type="text"], input[type="email"], textarea, button{
+    display:block;
+    margin: 10px 5px;
+    width:25%;
+    height:15%;
+    border-radius: 8px;
+    text-align: center;
+    background-color:lavender;
+}
+textarea{
+    Background-color:cyan;
+    height: 150px;
+}
+button:active{
+ Background-color:cyan;  
+}
+p{
+background-color:gainsboro;
+max-width: 300px;
+}
+h2{
+background-color:greenyellow;
+ max-width:20%;
+text-align: center;
+}
+.center {
+    display: block;
+    margin-left: 250px;
+    margin-right: 250px;
+    width: 20%;
+  }
+  .zend{
+    background-color: gainsboro;
+    border:none;
+    margin:left;
+  }
